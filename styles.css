@@ -88,3 +88,9 @@ html * {
   text-align: center;
   user-select: none;
 }
+
+@media (max-width: 1279px) {
+  .label {
+    font-size: 2em;
+  }
+}
