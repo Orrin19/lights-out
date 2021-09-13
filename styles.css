@@ -72,8 +72,11 @@ html * {
 }
 
 .action {
+  align-items: center;
   background-color: #000;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
   height: 30%;
   width: 100%;
 }
@@ -81,7 +84,7 @@ html * {
 .label {
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   user-select: none;
 }
