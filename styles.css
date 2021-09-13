@@ -32,7 +32,10 @@ html * {
 }
 
 .light {
-  display: inline-block;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
   width: 20%;
   --red-color: #d6281d;
@@ -50,24 +53,20 @@ html * {
   background-color: #454545;
 }
 
-.led {
+.led.first {
   background-color: #777;
   border-radius: 50%;
-  display: inline-block;
-  margin: 8% 0 0 5%;
   padding: 45% 0;
   width: 90%;
   height: 0;
 }
 
-.led::after {
+.led.second {
   background-color: var(--current-color);
   border-radius: 50%;
-  display: inline-block;
-  content: '';
-  margin-top: 70%;
-  padding: 50% 0;
-  width: 100%;
+  margin-top: 2em;
+  padding: 45% 0;
+  width: 90%;
   height: 0;
 }
 
